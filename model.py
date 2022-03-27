@@ -20,6 +20,7 @@ testloader = torch.utils.data.DataLoader(testset, batch_size = 64, shuffle = Tru
 device = torch.device("cuda:0")
 
 
+
 class ConvNN(nn.Module):
     def __init__(self):
         super(ConvNN, self).__init__()
